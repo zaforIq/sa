@@ -1,0 +1,459 @@
+[
+  {
+    "title": "Trending Topic: Entertainment #1",
+    "description": "A trending update about Entertainment generating buzz on social platforms.",
+    "keyword": "entertainment",
+    "hashtag": "#Technology",
+    "sentiment": "Positive",
+    "publish_date": "2025-02-12",
+    "publish_time": "14:30",
+    "platform_name": "National News Papers"
+  },
+  {
+    "title": "Trending Topic: Elections #2",
+    "description": "A trending update about Elections generating buzz on social platforms.",
+    "keyword": "elections",
+    "hashtag": "#Healthcare",
+    "sentiment": "Positive",
+    "publish_date": "2024-03-23",
+    "publish_time": "09:15",
+    "platform_name": "Facebook"
+  },
+  {
+    "title": "Trending Topic: AI #3",
+    "description": "A trending update about AI generating buzz on social platforms.",
+    "keyword": "ai",
+    "hashtag": "#Technology",
+    "sentiment": "Neutral",
+    "publish_date": "2025-02-05",
+    "publish_time": "11:00",
+    "platform_name": "International News Papers"
+  },
+  {
+    "title": "Trending Topic: ClimateChange #4",
+    "description": "A trending update about ClimateChange generating buzz on social platforms.",
+    "keyword": "climatechange",
+    "hashtag": "#Entertainment",
+    "sentiment": "Negative",
+    "publish_date": "2024-04-06",
+    "publish_time": "16:45",
+    "platform_name": "Telegram"
+  },
+  {
+    "title": "Trending Topic: StockMarket #5",
+    "description": "A trending update about StockMarket generating buzz on social platforms.",
+    "keyword": "stockmarket",
+    "hashtag": "#Technology",
+    "sentiment": "Neutral",
+    "publish_date": "2024-04-08",
+    "publish_time": "13:20",
+    "platform_name": "International News Papers"
+  },
+  {
+    "title": "Trending Topic: Entertainment #6",
+    "description": "A trending update about Entertainment generating buzz on social platforms.",
+    "keyword": "entertainment",
+    "hashtag": "#Space",
+    "sentiment": "Positive",
+    "publish_date": "2025-10-11",
+    "publish_time": "10:05",
+    "platform_name": "National News Papers"
+  },
+  {
+    "title": "Trending Topic: Olympics #7",
+    "description": "A trending update about Olympics generating buzz on social platforms.",
+    "keyword": "olympics",
+    "hashtag": "#Healthcare",
+    "sentiment": "Negative",
+    "publish_date": "2025-02-27",
+    "publish_time": "17:40",
+    "platform_name": "Facebook"
+  },
+  {
+    "title": "Trending Topic: Space #8",
+    "description": "A trending update about Space generating buzz on social platforms.",
+    "keyword": "space",
+    "hashtag": "#Space",
+    "sentiment": "Positive",
+    "publish_date": "2025-12-16",
+    "platform_name": "Facebook"
+  },
+  {
+    "title": "Trending Topic: AI #9",
+    "description": "A trending update about AI generating buzz on social platforms.",
+    "keyword": "ai",
+    "hashtag": "#StockMarket",
+    "sentiment": "Neutral",
+    "publish_date": "2025-08-06",
+    "platform_name": "Facebook"
+  },
+  {
+    "title": "Trending Topic: Space #10",
+    "description": "A trending update about Space generating buzz on social platforms.",
+    "keyword": "space",
+    "hashtag": "#Entertainment",
+    "sentiment": "Positive",
+    "publish_date": "2024-06-20",
+    "platform_name": "National News Papers"
+  },
+  {
+    "title": "Trending Topic: ClimateChange #11",
+    "description": "A trending update about ClimateChange generating buzz on social platforms.",
+    "keyword": "climatechange",
+    "hashtag": "#Olympics",
+    "sentiment": "Neutral",
+    "publish_date": "2025-11-20",
+    "platform_name": "International News Papers"
+  },
+  {
+    "title": "Trending Topic: ClimateChange #12",
+    "description": "A trending update about ClimateChange generating buzz on social platforms.",
+    "keyword": "climatechange",
+    "hashtag": "#StockMarket",
+    "sentiment": "Neutral",
+    "publish_date": "2025-02-20",
+    "platform_name": "National News Papers"
+  },
+  {
+    "title": "Trending Topic: Entertainment #13",
+    "description": "A trending update about Entertainment generating buzz on social platforms.",
+    "keyword": "entertainment",
+    "hashtag": "#Healthcare",
+    "sentiment": "Negative",
+    "publish_date": "2025-12-25",
+    "platform_name": "Facebook"
+  },
+  {
+    "title": "Trending Topic: StockMarket #14",
+    "description": "A trending update about StockMarket generating buzz on social platforms.",
+    "keyword": "stockmarket",
+    "hashtag": "#Elections",
+    "sentiment": "Positive",
+    "publish_date": "2024-09-12",
+    "platform_name": "YouTube"
+  },
+  {
+    "title": "Trending Topic: Elections #15",
+    "description": "A trending update about Elections generating buzz on social platforms.",
+    "keyword": "elections",
+    "hashtag": "#StockMarket",
+    "sentiment": "Neutral",
+    "publish_date": "2024-04-30",
+    "platform_name": "Telegram"
+  },
+  {
+    "title": "Trending Topic: Elections #16",
+    "description": "A trending update about Elections generating buzz on social platforms.",
+    "keyword": "elections",
+    "hashtag": "#Elections",
+    "sentiment": "Neutral",
+    "publish_date": "2025-02-22",
+    "platform_name": "National News Papers"
+  },
+  {
+    "title": "Trending Topic: StockMarket #17",
+    "description": "A trending update about StockMarket generating buzz on social platforms.",
+    "keyword": "stockmarket",
+    "hashtag": "#Technology",
+    "sentiment": "Neutral",
+    "publish_date": "2024-12-06",
+    "platform_name": "National News Papers"
+  },
+  {
+    "title": "Trending Topic: Healthcare #18",
+    "description": "A trending update about Healthcare generating buzz on social platforms.",
+    "keyword": "healthcare",
+    "hashtag": "#ClimateChange",
+    "sentiment": "Positive",
+    "publish_date": "2024-02-20",
+    "platform_name": "Telegram"
+  },
+  {
+    "title": "Trending Topic: ClimateChange #19",
+    "description": "A trending update about ClimateChange generating buzz on social platforms.",
+    "keyword": "climatechange",
+    "hashtag": "#StockMarket",
+    "sentiment": "Neutral",
+    "publish_date": "2025-06-07",
+    "platform_name": "X"
+  },
+  {
+    "title": "Trending Topic: Education #20",
+    "description": "A trending update about Education generating buzz on social platforms.",
+    "keyword": "education",
+    "hashtag": "#Space",
+    "sentiment": "Negative",
+    "publish_date": "2024-07-12",
+    "platform_name": "Telegram"
+  },
+  {
+    "title": "Trending Topic: Education #21",
+    "description": "A trending update about Education generating buzz on social platforms.",
+    "keyword": "education",
+    "hashtag": "#Entertainment",
+    "sentiment": "Negative",
+    "publish_date": "2025-06-20",
+    "platform_name": "YouTube"
+  },
+  {
+    "title": "Trending Topic: Healthcare #22",
+    "description": "A trending update about Healthcare generating buzz on social platforms.",
+    "keyword": "healthcare",
+    "hashtag": "#Olympics",
+    "sentiment": "Positive",
+    "publish_date": "2024-11-11",
+    "platform_name": "Facebook"
+  },
+  {
+    "title": "Trending Topic: Elections #23",
+    "description": "A trending update about Elections generating buzz on social platforms.",
+    "keyword": "elections",
+    "hashtag": "#StockMarket",
+    "sentiment": "Negative",
+    "publish_date": "2025-01-05",
+    "platform_name": "YouTube"
+  },
+  {
+    "title": "Trending Topic: ClimateChange #24",
+    "description": "A trending update about ClimateChange generating buzz on social platforms.",
+    "keyword": "climatechange",
+    "hashtag": "#Elections",
+    "sentiment": "Neutral",
+    "publish_date": "2025-11-24",
+    "platform_name": "Facebook"
+  },
+  {
+    "title": "Trending Topic: AI #25",
+    "description": "A trending update about AI generating buzz on social platforms.",
+    "keyword": "ai",
+    "hashtag": "#Entertainment",
+    "sentiment": "Negative",
+    "publish_date": "2025-09-05",
+    "platform_name": "Facebook"
+  },
+  {
+    "title": "Trending Topic: Healthcare #26",
+    "description": "A trending update about Healthcare generating buzz on social platforms.",
+    "keyword": "healthcare",
+    "hashtag": "#StockMarket",
+    "sentiment": "Positive",
+    "publish_date": "2025-12-19",
+    "platform_name": "X"
+  },
+  {
+    "title": "Trending Topic: Entertainment #27",
+    "description": "A trending update about Entertainment generating buzz on social platforms.",
+    "keyword": "entertainment",
+    "hashtag": "#Space",
+    "sentiment": "Neutral",
+    "publish_date": "2025-05-04",
+    "platform_name": "YouTube"
+  },
+  {
+    "title": "Trending Topic: AI #28",
+    "description": "A trending update about AI generating buzz on social platforms.",
+    "keyword": "ai",
+    "hashtag": "#Education",
+    "sentiment": "Neutral",
+    "publish_date": "2024-10-15",
+    "platform_name": "International News Papers"
+  },
+  {
+    "title": "Trending Topic: Elections #29",
+    "description": "A trending update about Elections generating buzz on social platforms.",
+    "keyword": "elections",
+    "hashtag": "#Education",
+    "sentiment": "Negative",
+    "publish_date": "2024-08-31",
+    "platform_name": "Facebook"
+  },
+  {
+    "title": "Trending Topic: Technology #30",
+    "description": "A trending update about Technology generating buzz on social platforms.",
+    "keyword": "technology",
+    "hashtag": "#AI",
+    "sentiment": "Neutral",
+    "publish_date": "2025-10-19",
+    "platform_name": "Facebook"
+  },
+  {
+    "title": "Trending Topic: Olympics #31",
+    "description": "A trending update about Olympics generating buzz on social platforms.",
+    "keyword": "olympics",
+    "hashtag": "#Entertainment",
+    "sentiment": "Positive",
+    "publish_date": "2024-02-28",
+    "platform_name": "Facebook"
+  },
+  {
+    "title": "Trending Topic: Space #32",
+    "description": "A trending update about Space generating buzz on social platforms.",
+    "keyword": "space",
+    "hashtag": "#AI",
+    "sentiment": "Positive",
+    "publish_date": "2025-04-15",
+    "platform_name": "Telegram"
+  },
+  {
+    "title": "Trending Topic: ClimateChange #33",
+    "description": "A trending update about ClimateChange generating buzz on social platforms.",
+    "keyword": "climatechange",
+    "hashtag": "#AI",
+    "sentiment": "Neutral",
+    "publish_date": "2025-04-23",
+    "platform_name": "YouTube"
+  },
+  {
+    "title": "Trending Topic: Healthcare #34",
+    "description": "A trending update about Healthcare generating buzz on social platforms.",
+    "keyword": "healthcare",
+    "hashtag": "#Education",
+    "sentiment": "Negative",
+    "publish_date": "2025-06-20",
+    "platform_name": "Facebook"
+  },
+  {
+    "title": "Trending Topic: AI #35",
+    "description": "A trending update about AI generating buzz on social platforms.",
+    "keyword": "ai",
+    "hashtag": "#ClimateChange",
+    "sentiment": "Negative",
+    "publish_date": "2024-05-23",
+    "platform_name": "YouTube"
+  },
+  {
+    "title": "Trending Topic: Elections #36",
+    "description": "A trending update about Elections generating buzz on social platforms.",
+    "keyword": "elections",
+    "hashtag": "#StockMarket",
+    "sentiment": "Positive",
+    "publish_date": "2024-09-09",
+    "platform_name": "National News Papers"
+  },
+  {
+    "title": "Trending Topic: Space #37",
+    "description": "A trending update about Space generating buzz on social platforms.",
+    "keyword": "space",
+    "hashtag": "#ClimateChange",
+    "sentiment": "Negative",
+    "publish_date": "2024-07-10",
+    "platform_name": "YouTube"
+  },
+  {
+    "title": "Trending Topic: StockMarket #38",
+    "description": "A trending update about StockMarket generating buzz on social platforms.",
+    "keyword": "stockmarket",
+    "hashtag": "#Education",
+    "sentiment": "Positive",
+    "publish_date": "2024-08-11",
+    "platform_name": "Telegram"
+  },
+  {
+    "title": "Trending Topic: Space #39",
+    "description": "A trending update about Space generating buzz on social platforms.",
+    "keyword": "space",
+    "hashtag": "#Education",
+    "sentiment": "Negative",
+    "publish_date": "2024-12-04",
+    "platform_name": "National News Papers"
+  },
+  {
+    "title": "Trending Topic: Technology #40",
+    "description": "A trending update about Technology generating buzz on social platforms.",
+    "keyword": "technology",
+    "hashtag": "#AI",
+    "sentiment": "Neutral",
+    "publish_date": "2025-05-26",
+    "platform_name": "Facebook"
+  },
+  {
+    "title": "Trending Topic: Entertainment #41",
+    "description": "A trending update about Entertainment generating buzz on social platforms.",
+    "keyword": "entertainment",
+    "hashtag": "#Healthcare",
+    "sentiment": "Positive",
+    "publish_date": "2024-07-18",
+    "platform_name": "Facebook"
+  },
+  {
+    "title": "Trending Topic: AI #42",
+    "description": "A trending update about AI generating buzz on social platforms.",
+    "keyword": "ai",
+    "hashtag": "#Entertainment",
+    "sentiment": "Negative",
+    "publish_date": "2025-09-25",
+    "platform_name": "Facebook"
+  },
+  {
+    "title": "Trending Topic: Entertainment #43",
+    "description": "A trending update about Entertainment generating buzz on social platforms.",
+    "keyword": "entertainment",
+    "hashtag": "#AI",
+    "sentiment": "Neutral",
+    "publish_date": "2025-06-05",
+    "platform_name": "X"
+  },
+  {
+    "title": "Trending Topic: Elections #44",
+    "description": "A trending update about Elections generating buzz on social platforms.",
+    "keyword": "elections",
+    "hashtag": "#StockMarket",
+    "sentiment": "Positive",
+    "publish_date": "2024-01-23",
+    "platform_name": "X"
+  },
+  {
+    "title": "Trending Topic: Technology #45",
+    "description": "A trending update about Technology generating buzz on social platforms.",
+    "keyword": "technology",
+    "hashtag": "#Healthcare",
+    "sentiment": "Neutral",
+    "publish_date": "2024-03-10",
+    "platform_name": "YouTube"
+  },
+  {
+    "title": "Trending Topic: Technology #46",
+    "description": "A trending update about Technology generating buzz on social platforms.",
+    "keyword": "technology",
+    "hashtag": "#Healthcare",
+    "sentiment": "Neutral",
+    "publish_date": "2025-05-27",
+    "platform_name": "Facebook"
+  },
+  {
+    "title": "Trending Topic: Healthcare #47",
+    "description": "A trending update about Healthcare generating buzz on social platforms.",
+    "keyword": "healthcare",
+    "hashtag": "#Olympics",
+    "sentiment": "Negative",
+    "publish_date": "2025-02-03",
+    "platform_name": "International News Papers"
+  },
+  {
+    "title": "Trending Topic: ClimateChange #48",
+    "description": "A trending update about ClimateChange generating buzz on social platforms.",
+    "keyword": "climatechange",
+    "hashtag": "#StockMarket",
+    "sentiment": "Neutral",
+    "publish_date": "2024-05-07",
+    "platform_name": "International News Papers"
+  },
+  {
+    "title": "Trending Topic: Healthcare #49",
+    "description": "A trending update about Healthcare generating buzz on social platforms.",
+    "keyword": "healthcare",
+    "hashtag": "#Elections",
+    "sentiment": "Negative",
+    "publish_date": "2025-10-11",
+    "platform_name": "X"
+  },
+  {
+    "title": "Trending Topic: Entertainment #50",
+    "description": "A trending update about Entertainment generating buzz on social platforms.",
+    "keyword": "entertainment",
+    "hashtag": "#Space",
+    "sentiment": "Neutral",
+    "publish_date": "2024-08-16",
+    "platform_name": "X"
+  }
+]

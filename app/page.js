@@ -1,103 +1,94 @@
-import Image from "next/image";
+"use client";
 
-export default function Home() {
+import { SentimentProvider } from "./context/SentimentContext";
+import { TrendingProvider } from "./context/TrendingContext";
+import SummaryCards from "./components/SummaryCards";
+import TrendingSection from "./components/TrendingSection";
+import ChartSection from "./components/ChartSection";
+import TopNav from "./components/TopNav";
+import SideNav from "./components/SideNav";
+import PostsSection from "./components/PostsSection";
+import FilterPanel from "./components/FilterPanel";
+import TagsPanel from "./components/TagsPanel";
+import KeywordsPanel from "./components/KeywordsPanel";
+import KeywordsPieChart from "./components/KeywordsPieChart";
+import PostsBarChart from "./components/PostsBarChart";
+
+import React, { useState } from "react";
+
+export default function Page() {
+  const [activeNav, setActiveNav] = useState("Overview");
+  const [search, setSearch] = useState("");
+  const [selectedSources, setSelectedSources] = useState([]);
+  const [selectedSentiment, setSelectedSentiment] = useState("All");
+  const [selectedDate, setSelectedDate] = useState("");
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              app/page.js
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <TrendingProvider>
+      <SentimentProvider>
+        <div className="font-sans bg-gradient-to-br from-gray-900 to-gray-800 min-h-screen flex flex-row">
+          <SideNav active={activeNav} onSelect={setActiveNav} />
+          <div className="flex-1 min-h-screen flex flex-col ml-14 md:ml-44">
+            <TopNav onSearch={setSearch} />
+            <main className="w-full  mx-auto px-2 sm:px-4 py-8 flex flex-col md:flex-row gap-8">
+              {/* Left Column */}
+              <div className="flex-1 flex flex-col gap-6">
+                <SummaryCards
+                  selectedSources={selectedSources}
+                  selectedSentiment={selectedSentiment}
+                  selectedDate={selectedDate}
+                  dark
+                />
+                <TrendingSection
+                  selectedSources={selectedSources}
+                  selectedSentiment={selectedSentiment}
+                  selectedDate={selectedDate}
+                />
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+                <PostsSection
+                  selectedSources={selectedSources}
+                  selectedSentiment={selectedSentiment}
+                  selectedDate={selectedDate}
+                />
+                <PostsBarChart
+                  selectedSources={selectedSources}
+                  selectedSentiment={selectedSentiment}
+                  selectedDate={selectedDate}
+                />
+                {/* <ChartSection dark /> */}
+              </div>
+              {/* Right Column */}
+              <div className="w-full md:w-80 flex flex-col gap-6">
+                <FilterPanel
+                  selectedSources={selectedSources}
+                  setSelectedSources={setSelectedSources}
+                  selectedSentiment={selectedSentiment}
+                  setSelectedSentiment={setSelectedSentiment}
+                  selectedDate={selectedDate}
+                  setSelectedDate={setSelectedDate}
+                  dark
+                />
+                <TagsPanel
+                  selectedSources={selectedSources}
+                  selectedSentiment={selectedSentiment}
+                  selectedDate={selectedDate}
+                  dark
+                />
+                <KeywordsPanel
+                  selectedSources={selectedSources}
+                  selectedSentiment={selectedSentiment}
+                  selectedDate={selectedDate}
+                  dark
+                />
+                <KeywordsPieChart
+                  selectedSources={selectedSources}
+                  selectedSentiment={selectedSentiment}
+                  selectedDate={selectedDate}
+                />
+              </div>
+            </main>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      </SentimentProvider>
+    </TrendingProvider>
   );
 }

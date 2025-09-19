@@ -13,6 +13,7 @@ import TagsPanel from "./components/TagsPanel";
 import KeywordsPanel from "./components/KeywordsPanel";
 import KeywordsPieChart from "./components/KeywordsPieChart";
 import PostsBarChart from "./components/PostsBarChart";
+import HashtagSentimentBarChart from "./components/HashtagSentimentBarChart";
 
 import React, { useState } from "react";
 
@@ -27,7 +28,11 @@ export default function Page() {
       <SentimentProvider>
         <div className="font-sans bg-gradient-to-br from-gray-900 to-gray-800 min-h-screen flex flex-row">
           <SideNav active={activeNav} onSelect={setActiveNav} />
-          <div className="flex-1 min-h-screen flex flex-col ml-14 md:ml-44">
+          <div
+            className={`flex-1 min-h-screen flex flex-col ${
+              activeNav === "Overview" ? "ml-14 md:ml-14" : "ml-0"
+            }`}
+          >
             <TopNav onSearch={setSearch} />
             <main className="w-full  mx-auto px-2 sm:px-4 py-8 flex flex-col md:flex-row gap-8">
               {/* Left Column */}
@@ -54,6 +59,7 @@ export default function Page() {
                   selectedSentiment={selectedSentiment}
                   selectedDate={selectedDate}
                 />
+                <HashtagSentimentBarChart selectedSources={selectedSources} />
                 {/* <ChartSection dark /> */}
               </div>
               {/* Right Column */}

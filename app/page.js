@@ -1,19 +1,19 @@
 "use client";
 
-import { SentimentProvider } from "./context/SentimentContext";
-import { TrendingProvider } from "./context/TrendingContext";
-import SummaryCards from "./components/SummaryCards";
-import TrendingSection from "./components/TrendingSection";
-import ChartSection from "./components/ChartSection";
-import TopNav from "./components/TopNav";
-import SideNav from "./components/SideNav";
-import PostsSection from "./components/PostsSection";
-import FilterPanel from "./components/FilterPanel";
-import TagsPanel from "./components/TagsPanel";
-import KeywordsPanel from "./components/KeywordsPanel";
-import KeywordsPieChart from "./components/KeywordsPieChart";
-import PostsBarChart from "./components/PostsBarChart";
-import HashtagSentimentBarChart from "./components/HashtagSentimentBarChart";
+import { SentimentProvider } from "../context/SentimentContext";
+import { TrendingProvider } from "../context/TrendingContext";
+import SummaryCards from "../components/SummaryCards";
+import TrendingSection from "../components/TrendingSection";
+import ChartSection from "../components/ChartSection";
+import TopNav from "../components/TopNav";
+import SideNav from "../components/SideNav";
+import PostsSection from "../components/PostsSection";
+import FilterPanel from "../components/FilterPanel";
+import TagsPanel from "../components/TagsPanel";
+import KeywordsPanel from "../components/KeywordsPanel";
+import KeywordsPieChart from "../components/KeywordsPieChart";
+import PostsBarChart from "../components/PostsBarChart";
+import HashtagSentimentBarChart from "../components/HashtagSentimentBarChart";
 
 import React, { useState } from "react";
 

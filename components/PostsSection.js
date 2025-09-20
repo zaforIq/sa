@@ -19,7 +19,7 @@ export default function PostsSection({
     return sourceMatch && sentimentMatch && dateMatch;
   });
   return (
-  <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl shadow-md p-6 mt-6 w-full">
+    <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl shadow-md p-6 mt-6 w-full">
       <h2 className="text-lg font-bold mb-4 text-gray-100">Posts</h2>
       <div
         className="flex flex-col gap-4 overflow-y-auto"

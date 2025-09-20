@@ -1,7 +1,10 @@
 "use client";
 import React, { useState } from "react";
 
-const navItems = [{ label: "Dashboard", icon: "🏠" }];
+const navItems = [
+  { label: "Dashboard", icon: "🏠", route: "/" },
+  { label: "Report", icon: "📄", route: "/report" },
+];
 
 export default function SideNav({ active, onSelect }) {
   const [open, setOpen] = useState(false);
@@ -21,9 +24,9 @@ export default function SideNav({ active, onSelect }) {
         {open ? "✖️" : "☰"}
       </button>
       {navItems.map((item) => (
-        <button
+        <a
           key={item.label}
-          onClick={() => onSelect && onSelect(item.label)}
+          href={item.route}
           className={`flex items-center gap-3 bg-transparent border-none text-lg px-3 py-2 w-full cursor-pointer mb-2 rounded-lg transition-colors duration-200 ${
             active === item.label
               ? "bg-indigo-900 text-yellow-400 font-bold"
@@ -32,7 +35,7 @@ export default function SideNav({ active, onSelect }) {
         >
           <span className="text-2xl">{item.icon}</span>
           {open && <span>{item.label}</span>}
-        </button>
+        </a>
       ))}
     </aside>
   );

@@ -24,8 +24,6 @@ export default function Page() {
   const [selectedSentiment, setSelectedSentiment] = useState("All");
   const [selectedDate, setSelectedDate] = useState("");
   return (
-    <TrendingProvider>
-      <SentimentProvider>
         <div className="font-sans bg-gradient-to-br from-gray-900 to-gray-800 min-h-screen flex flex-row">
           <SideNav active={activeNav} onSelect={setActiveNav} />
           <div
@@ -94,7 +92,6 @@ export default function Page() {
             </main>
           </div>
         </div>
-      </SentimentProvider>
-    </TrendingProvider>
+
   );
 }
